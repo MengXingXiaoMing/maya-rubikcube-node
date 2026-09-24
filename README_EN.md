@@ -2,11 +2,11 @@
 
 A rigging node for Autodesk Maya that procedurally builds a customizable Rubik's cube. Every layer has its own controller, so the cube can be turned layer by layer like a real one.
 
-![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-MIT-green)
+![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
 
 [中文](README.md) | English
 
-<img src="docs/cube.png" alt="rubikCube 4x4x4" width="520">
+<img src="https://cdn.jsdelivr.net/gh/MengXingXiaoMing/maya-rubikcube-node@main/docs/cube.png" alt="rubikCube 4x4x4" width="520">
 
 ## Features
 
@@ -129,7 +129,7 @@ A second cube gets a `_2` suffix on everything (`rubikMaster_2`, `rubikCubie_0_2
 
 Layer controllers sit in their own axis plane, are colored per axis, and keep only that axis' rotation channel:
 
-<img src="docs/controllers.png" alt="One square controller per layer, colored per axis" width="520">
+<img src="https://cdn.jsdelivr.net/gh/MengXingXiaoMing/maya-rubikcube-node@main/docs/controllers.png" alt="One square controller per layer, colored per axis" width="520">
 
 ## How it works
 
@@ -193,7 +193,12 @@ A NURBS curve's display color does not come from materials — it can only be se
 
 ## License
 
-Released under the MIT License — see `LICENSE`.
+Released under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) — see `LICENSE`.
+
+- **Allowed**: personal learning, research, teaching, evaluation, and use or modification in noncommercial projects.
+- **Not allowed**: any commercial use, including use in commercial products or services, selling, or paid distribution.
+
+> Note: the source is public, but this is **not** an OSI-approved open-source license, because it restricts commercial use. For commercial licensing, please contact the author.
 
 ## Author
 

@@ -2,11 +2,11 @@
 
 一个用于 Autodesk Maya 的魔方绑定插件：程序化生成可自定义尺寸的魔方，每一层都有独立控制器，可以像真实魔方一样逐层转动。
 
-![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-MIT-green)
+![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
 
 中文 | [English](README_EN.md)
 
-<img src="docs/cube.png" alt="rubikCube 4×4×4" width="520">
+<img src="https://cdn.jsdelivr.net/gh/MengXingXiaoMing/maya-rubikcube-node@main/docs/cube.png" alt="rubikCube 4×4×4" width="520">
 
 ## 特性
 
@@ -129,7 +129,7 @@ cmds.delete(cmds.ls("rubikMaster*", long=True))
 
 层控制器在各自轴的平面内、每个轴一种颜色，并且只保留该轴的旋转通道：
 
-<img src="docs/controllers.png" alt="每个轴一层一个正方形控制器，同轴同色" width="520">
+<img src="https://cdn.jsdelivr.net/gh/MengXingXiaoMing/maya-rubikcube-node@main/docs/controllers.png" alt="每个轴一层一个正方形控制器，同轴同色" width="520">
 
 ## 实现说明
 
@@ -193,7 +193,12 @@ NURBS 曲线的显示颜色不参与材质着色，只能用 drawing override �
 
 ## 许可证
 
-本项目基于 MIT 许可证开源，详见 `LICENSE`。
+本项目基于 [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) 发布，详见 `LICENSE`。
+
+- **允许**：个人学习、研究、教学、评估，以及在非商业项目中使用和修改。
+- **禁止**：任何商业用途，包括在商业产品或服务中使用、销售、收费提供，或用于以营利为目的的项目。
+
+> 注意：源码公开，但这不是 OSI 认可的开源许可证，因为它限制商业使用。如需商业授权，请联系作者。
 
 ## 作者
 
