@@ -4,6 +4,10 @@
 
 ![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-MIT-green)
 
+中文 | [English](README_EN.md)
+
+<img src="docs/cube.png" alt="rubikCube 4×4×4" width="520">
+
 ## 特性
 
 - **任意尺寸**：3×3×3、4×4×4 …… 直到 64×64×64（`MAX_DIM` 可调），长宽高也可不同（如 3×4×5）。
@@ -122,6 +126,10 @@ cmds.delete(cmds.ls("rubikMaster*", long=True))
 | 插件节点 | `rubikCubeNode1` | 计算并驱动小方块的位置与旋转 |
 
 第二个魔方的所有对象会带 `_2` 后缀（`rubikMaster_2`、`rubikCubie_0_2`、`rubikCtrl_X0_2` …），以此类推。
+
+层控制器在各自轴的平面内、每个轴一种颜色，并且只保留该轴的旋转通道：
+
+<img src="docs/controllers.png" alt="每个轴一层一个正方形控制器，同轴同色" width="520">
 
 ## 实现说明
 
