@@ -2,7 +2,7 @@
 
 A rigging node for Autodesk Maya that procedurally builds a customizable Rubik's cube. Every layer has its own controller, so the cube can be turned layer by layer like a real one.
 
-![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
+![Maya](https://img.shields.io/badge/Maya-2019--2025-blue) ![Python](https://img.shields.io/badge/Python-2.7%20%26%203-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
 
 [中文](README.md) | English
 
@@ -21,9 +21,9 @@ A rigging node for Autodesk Maya that procedurally builds a customizable Rubik's
 
 ## Requirements
 
-- Autodesk Maya (developed and tested on **Maya 2025 / Python 3**)
+- Autodesk Maya **2019 – 2025** (verified on Maya 2019 / Python 2.7 and Maya 2025 / Python 3)
 - No third-party dependencies — only modules shipped with Maya: `maya.OpenMaya`, `maya.OpenMayaMPx`, `maya.cmds`
-- Uses OpenMaya API 1.0; other Maya versions have not been tested individually
+- Uses OpenMaya API 1.0; the single `rubikCube.py` works with both Python 2.7 and 3 — no separate downloads
 
 ## Installation
 

@@ -2,7 +2,7 @@
 
 一个用于 Autodesk Maya 的魔方绑定插件：程序化生成可自定义尺寸的魔方，每一层都有独立控制器，可以像真实魔方一样逐层转动。
 
-![Maya](https://img.shields.io/badge/Maya-2025-blue) ![Python](https://img.shields.io/badge/Python-3-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
+![Maya](https://img.shields.io/badge/Maya-2019--2025-blue) ![Python](https://img.shields.io/badge/Python-2.7%20%26%203-yellow) ![License](https://img.shields.io/badge/License-NonCommercial-red)
 
 中文 | [English](README_EN.md)
 
@@ -21,9 +21,9 @@
 
 ## 环境要求
 
-- Autodesk Maya（开发与测试环境：**Maya 2025 / Python 3**）
+- Autodesk Maya **2019 – 2025**（已在 Maya 2019 / Python 2.7 与 Maya 2025 / Python 3 实测）
 - 无第三方依赖，仅使用 Maya 自带模块：`maya.OpenMaya`、`maya.OpenMayaMPx`、`maya.cmds`
-- 使用 OpenMaya API 1.0，未在其它 Maya 版本上逐一测试
+- 使用 OpenMaya API 1.0；单个 `rubikCube.py` 文件同时兼容 Python 2.7 / 3，无需区分版本下载
 
 ## 安装
 
